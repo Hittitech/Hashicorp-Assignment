@@ -120,7 +120,7 @@ import Pagination from './Pagination';
             <input type="checkbox" onClick={handleSelectAll}/>
             </TableColumnHeaderCell>
               <TableColumnHeaderCell >Name</TableColumnHeaderCell>
-              <TableColumnHeaderCell className='hidden md:table-cell bg-black'>Email</TableColumnHeaderCell>
+              <TableColumnHeaderCell className='hidden md:table-cell'>Email</TableColumnHeaderCell>
               <TableColumnHeaderCell className='hidden md:table-cell'>Role</TableColumnHeaderCell>
               <TableColumnHeaderCell className='hidden md:table-cell'>Actions</TableColumnHeaderCell>
             </Table.Row>
@@ -144,7 +144,7 @@ import Pagination from './Pagination';
                 <div className='block md:hidden lowercase'>{user.role}
                 </div>
                 </Table.Cell>
-                <Table.Cell variant="surface" className='hidden md:table-cell'>{user.email}</Table.Cell>
+                <Table.Cell  className='hidden md:table-cell'>{user.email}</Table.Cell>
                 <Table.Cell className='hidden md:table-cell'>{user.role}</Table.Cell>
                 <Table.Cell>
                   <Flex gap="4">
