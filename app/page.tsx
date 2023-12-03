@@ -120,7 +120,7 @@ import Pagination from './Pagination';
             <input type="checkbox" onClick={handleSelectAll}/>
             </TableColumnHeaderCell>
               <TableColumnHeaderCell >Name</TableColumnHeaderCell>
-              <TableColumnHeaderCell className='hidden md:table-cell bg-black'>Email</TableColumnHeaderCell>
+              <TableColumnHeaderCell className='hidden md:table-cell'>Email</TableColumnHeaderCell>
               <TableColumnHeaderCell className='hidden md:table-cell'>Role</TableColumnHeaderCell>
               <TableColumnHeaderCell className='hidden md:table-cell'>Actions</TableColumnHeaderCell>
             </Table.Row>
